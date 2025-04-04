@@ -44,7 +44,8 @@ We build a small-scale GPT model and train it on Shakespearean text. The dataset
 2. Apply pruning and distillation to reduce model size.
 3. Quantize the model using low-bit precision methods.
 4. Convert the model to GGUF format for better memory efficiency and better loading and inference speed.
-5. Deploy the quantized model on edge for inference on CPU.
+   - Upload your model to hugging face and convert it to GGUF [here](https://huggingface.co/spaces/ggml-org/gguf-my-repo)
+6. Deploy the quantized model on edge for inference on CPU.
 
 ## Results and Observations
 
