@@ -28,7 +28,7 @@ We build a small-scale GPT model and train it on Shakespearean text. The dataset
 - Importance scores for neurons, attentions heads and embeddings are calculated and these components are pruned based on the importance scores
 - Knowledge training is used to retrain the model
   -Shakespeare GPT
-<br><img src="image.png" width="600" height="220" style="display:block;margin-left:auto;margin-right:auto;"><br>
+<br><img src="image.png" width="700" height="320" style="display:block;margin-left:auto;margin-right:auto;"><br>
    -Sherlock GPT
   ![image](https://github.com/user-attachments/assets/01d2d649-5a5a-47f6-8c3b-0ba04dc42c07)
 
