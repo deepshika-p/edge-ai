@@ -30,11 +30,15 @@ We build a small-scale GPT model and train it on Shakespearean text. The dataset
   
 <br><img src="image.png" width="700" height="320" style="display:block;margin-left:auto;margin-right:auto;"><br
   -Shakespeare GPT
+  
   ![image](https://github.com/user-attachments/assets/27faaf54-0772-4b99-88ae-e110b3856ebf)
+  
 2. **Parallelization:**
 
 - Model parallelism is used for efficient fine-tuning on multi-GPU setups.
+
 -Sherlock GPT
+
   ![image](https://github.com/user-attachments/assets/31b88bfe-7f14-4e87-8920-5ffce2667a7e)
 
 3. **Quantization:**
@@ -49,7 +53,7 @@ We build a small-scale GPT model and train it on Shakespearean text. The dataset
 4. Convert the model to GGUF format for better memory efficiency and better loading and inference speed.
    - Upload your model to hugging face and convert it to GGUF [here](https://huggingface.co/spaces/ggml-org/gguf-my-repo)
 6. Deploy the quantized model on edge for inference on CPU.
-   ![diagram-export-4-9-2025-11_07_50-PM](https://github.com/user-attachments/assets/dd5a35d1-64a0-444b-ab8c-8025469ed202)
+
 
 
 ## Results and Observations
