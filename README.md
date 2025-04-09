@@ -46,6 +46,8 @@ We build a small-scale GPT model and train it on Shakespearean text. The dataset
 4. Convert the model to GGUF format for better memory efficiency and better loading and inference speed.
    - Upload your model to hugging face and convert it to GGUF [here](https://huggingface.co/spaces/ggml-org/gguf-my-repo)
 6. Deploy the quantized model on edge for inference on CPU.
+   ![diagram-export-4-9-2025-11_07_50-PM](https://github.com/user-attachments/assets/dd5a35d1-64a0-444b-ab8c-8025469ed202)
+
 
 ## Results and Observations
 
