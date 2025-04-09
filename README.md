@@ -59,6 +59,7 @@ We build a small-scale GPT model and train it on Shakespearean text. The dataset
 ## Results and Observations
 
 - Pruning and knowledge distillation significantly reduced model size (35.96%) while maintaining accuracy.
+
 | Metric              | Pre-Pruning | Post-Pruning | Post-Distillation |
 |---------------------|-------------|---------------|--------------------|
 | No. of Parameters   | 3.22 M      | 2.06 M        | 2.06 M             |
