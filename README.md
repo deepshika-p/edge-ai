@@ -30,17 +30,16 @@ We build a small-scale GPT model and train it on Shakespearean text. The dataset
   
 <br><img src="image.png" width="700" height="320" style="display:block;margin-left:auto;margin-right:auto;"><br
   -Shakespeare GPT
-  ![diagram-export-4-9-2025-11_07_50-PM](https://github.com/user-attachments/assets/dd5a35d1-64a0-444b-ab8c-8025469ed202)
-   -Sherlock GPT
-  ![image](https://github.com/user-attachments/assets/01d2d649-5a5a-47f6-8c3b-0ba04dc42c07)
-
+  ![image](https://github.com/user-attachments/assets/27faaf54-0772-4b99-88ae-e110b3856ebf)
 2. **Parallelization:**
 
 - Model parallelism is used for efficient fine-tuning on multi-GPU setups.
+-Sherlock GPT
+  ![image](https://github.com/user-attachments/assets/31b88bfe-7f14-4e87-8920-5ffce2667a7e)
 
 3. **Quantization:**
 
-- 4-bit quantization (q4_k_m quantization) is applied and the model is converted to GGUF format for efficient inference on edge devices (using BitsAndBytes and llama.cpp libraries).
+-Converted 16-bit activation and weights to 4-bit quantization (using q4_k_m quantization) and the model is converted to GGUF format for efficient inference on edge devices (using BitsAndBytes and llama.cpp libraries).
 
 ## Execution Steps
 
@@ -56,6 +55,13 @@ We build a small-scale GPT model and train it on Shakespearean text. The dataset
 ## Results and Observations
 
 - Pruning and knowledge distillation significantly reduced model size (35.96%) while maintaining accuracy.
+| Metric              | Pre-Pruning | Post-Pruning | Post-Distillation |
+|---------------------|-------------|---------------|--------------------|
+| No. of Parameters   | 3.22 M      | 2.06 M        | 2.06 M             |
+| Compression Ratio   | -           | 35.96%        | 35.96%             |
+| Evaluation Loss     | 1.4788      | 3.1399        | 2.0749             |
+
+
 - 4-bit quantization enabled real-time inference on edge devices.
 - Parallelism improved fine-tuning efficiency on multi-GPU setups.
 
