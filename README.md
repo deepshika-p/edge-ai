@@ -27,8 +27,10 @@ We build a small-scale GPT model and train it on Shakespearean text. The dataset
 - Iterative structured pruning and knowledge distillation techniques are applied to reduce model size while preserving performance.
 - Importance scores for neurons, attentions heads and embeddings are calculated and these components are pruned based on the importance scores
 - Knowledge training is used to retrain the model
+  
+<br><img src="image.png" width="700" height="320" style="display:block;margin-left:auto;margin-right:auto;"><br
   -Shakespeare GPT
-<br><img src="image.png" width="700" height="320" style="display:block;margin-left:auto;margin-right:auto;"><br>
+  ![diagram-export-4-9-2025-11_07_50-PM](https://github.com/user-attachments/assets/dd5a35d1-64a0-444b-ab8c-8025469ed202)
    -Sherlock GPT
   ![image](https://github.com/user-attachments/assets/01d2d649-5a5a-47f6-8c3b-0ba04dc42c07)
 
